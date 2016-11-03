@@ -4,7 +4,10 @@ app.get('/', function (req, res) {
   res.send('hello ec90!')
 })
 
-app.listen(3000, function () {
-  console.log('example app listening on port 3000!')
+
+
+
+app.listen(80, function () {
+  console.log('example app listening on port 80!')
 })
 
